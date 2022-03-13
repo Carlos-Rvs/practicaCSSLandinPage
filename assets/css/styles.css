@@ -1,0 +1,462 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, white, white, rgba(212, 255, 255, 0.53));
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.txt-clr {
+    color: #090968;
+}
+
+nav>div>h3 {
+    color: blue;
+    font-weight: bold;
+}
+
+.first-section-text>h1 {
+    font-size: xxx-large;
+}
+
+#navbar>a {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(133, 128, 128, 1);
+}
+
+button#hoax-btn {
+    background: blue;
+    color: white;
+    border-style: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 590px;
+}
+
+
+
+.icon-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-top>i {
+    color: #FFD100;
+    background-color: rgba(253, 244, 134, 0.53);
+}
+
+/*estilos para triangulos en imagenes*/
+.triangle-top {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid rgb(167 167 167 / 53%);
+    margin-left: 120px;
+    margin-bottom: 25px;
+    opacity: 0.3;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid rgb(167 167 167 / 53%);
+    opacity: 0.3;
+}
+
+section.first-section {
+    background: linear-gradient(to right, white, white, white, #29b0ff, #29b0ff);
+
+}
+
+#first-section {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, white, white, white, #29b0ff, #29b0ff);
+}
+
+
+
+.first-section-text {
+    width: 350px;
+}
+
+p#parrafo-espacio {
+    margin-bottom: 10px;
+}
+
+div#img-marcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-vaccine {
+    position: relative;
+    margin-left: 150px;
+    bottom: 15px;
+    left: 88px;
+    width: 500px;
+}
+
+.form-vaccine>h3 {
+    align-items: center;
+}
+
+#form-vaccine-items {
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    width: 800px;
+    height: 100px;
+    border-radius: 15px;
+    opacity: 0.88;
+}
+
+form#form-vaccine-items>div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+form#form-vaccine-items>div>input, select {
+    border-style: none;
+    margin-left: 25px;
+    background: none;
+}
+
+#btn-submit {
+    position: relative;
+    width: 105px;
+    height: 40px;
+    margin: 15px 0 15px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 5px 0 5px;
+    border-style: none;
+    box-shadow: 0 1px rgba(4, 0, 255, 0.53);
+}
+
+.img-mrk {
+    width: 200px;
+    align-self: center;
+}
+
+.second-section {
+    width: 400px;
+    margin-left: 120px;
+}
+
+.second-section>h1 {
+    font-size: xx-large;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-container>div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px;
+    border-width: 0.5px;
+}
+
+div.info-container>div>h3 {
+    width: 150px;
+}
+
+div.info-container>div>i {
+    background: whitesmoke;
+    width: 25px;
+    color: #090968;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section.section-spc {
+    margin-bottom: 100px;
+}
+
+section.tird-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.tird-section:first-of-type(div) {
+    margin: 0;
+}
+
+#info-preparation {
+    width: 500px;
+    margin-right: 150px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid rgb(167 167 167 / 53%);
+    opacity: 0.3;
+
+}
+
+.imgh-cubrebocas {
+    background: #29b0ff;
+    margin: 0;
+    width: 800px;
+    height: 670px;
+    align-items: baseline;
+}
+
+#img-cubrebocas {
+    border-style: none;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 150px;
+}
+
+.triangle-container {
+    background: white;
+    height: 160px;
+}
+
+.info-pre>div {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    justify-content: space-between;
+    border-width: 0.5px;
+    margin-bottom: 15px;
+    border-color: rgba(0, 0, 0, 0.1);
+    padding: 0 10px 0 20px;
+}
+
+.info-pre>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.info-pre>div>div>i {
+    background: whitesmoke;
+    width: 25px;
+    color: #090968;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.contact- {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.contact->div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    width: 170px;
+    height: 160px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+}
+
+.emergency-contact {
+    width: 400px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-btn {
+    margin-left: 100px;
+    padding-top: 200px;
+}
+
+.img-enfermero-contact {
+    background: #29b0ff;
+    width: 785px;
+}
+
+.triangleleft {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid rgb(167 167 167 / 53%);
+    float: right;
+    opacity: 0.3;
+
+
+}
+
+a.btn-contact-q {
+    text-decoration: none;
+    background: whitesmoke;
+    color: #090968;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+a.btn-contact-q:hover {
+    background: #090968;
+    color: white;
+}
+
+.txt-cards-inf {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.txt-cards-inf>i {
+    background: whitesmoke;
+    width: 25px;
+    margin-right: 10px;
+    color: #090968;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.triangleleft-container {
+    background: white;
+    height: 160px;
+}
+
+.div-contact-triangle {
+    background: white;
+    height: 160px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background: rgba(225, 225, 245, 0.53);
+    margin-top: 200px;
+    padding-top: 60px;
+
+}
+
+div#eslogan {
+    width: 150px;
+    margin-left: 150px;
+}
+
+#eslogan>h3 {
+    color: blue;
+}
+
+#eslogan>p {
+    color: rgba(133, 128, 128, 1);
+}
+
+div#info-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#info-cards>div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+
+.txt-pr-clr {
+    color: rgba(133, 128, 128, 1);
+}
+
+div#info-cards>div>a {
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: rgba(133, 128, 128, 1);
+}
+
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(225, 225, 245, 0.53);
+}
+
+#copy {
+    margin-left: 150px;
+}
+
+#terms-section {
+    display: flex;
+    margin-right: 50px;
+}
+
+#terms-section>div {
+    margin-right: 100px;
+}
+
+/*img#img-enfermero {
+    border-style: none;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    right: 150px;
+    
+}*/
+
+.triangle-up-footer {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid rgb(167 167 167 / 53%);
+    float: right;
+    opacity: 0.3;
+}
+
+img#nurse-img {
+    width: 800px;
+    position: relative;
+    top: 171px;
+}
+
+img#img-enfermero {
+    position: relative;
+    top: 39px;
+    right: 50px;
+}
